@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+  <title>仿机器人</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/robot.js"></script>
+</head>
+
+<body style="height: 100%;">
+  <div class="panel panel-default">
+    <div class="panel-heading">可用功能</div>
+    <div class="panel-body">
+    <div style="float: left;width: 50%;padding-right: 15px;">
+      <div class="panel panel-default">
+        <div class="panel-heading">功能</div>
+        <div class="panel-body">
+          <div class="btn-group-sm" role="group">
+            <button type="button" class="btn btn-default" id="drawSingle">抽取单张塔罗牌</button>
+            <button type="button" class="btn btn-default">抽取十字牌阵</button>
+            <button type="button" class="btn btn-default">抽取二择一牌阵</button>
+            <button type="button" class="btn btn-default">抽取圣三角牌阵</button>
+            <button type="button" class="btn btn-default">抽取维纳斯牌阵</button>
+            <button type="button" class="btn btn-default">抽取生命树牌阵</button>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">详细信息</div>
+        <div class="panel-body">
+          <div id="info"></div>
+        </div>
+      </div>
+    </div>
+      <div class="panel panel-default" style="width: 50%;float: right;height: 100%;">
+        <div class="panel-heading">结果</div>
+        <div class="panel-body">
+          <div id="result">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
